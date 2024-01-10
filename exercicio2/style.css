@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position:sticky;
+  top: 0;
+  height: 30px;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+main{
+  position: static;
+  height: 500px;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+footer{
+  position: static;
+  height: 30px;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
