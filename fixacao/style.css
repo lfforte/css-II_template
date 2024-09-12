@@ -26,12 +26,32 @@
     margin: 10px 0;
   }
   
+button:active{
+  background-color: green;
+}
+
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
   }
+
+  footer:hover{
+    background-color: yellow;
+  }
+
+  aside{
+    position: absolute;
+    right: 15px;
+    bottom: -850px;
+  }
+ section.sec-1{
+    text-align: center;
+    
+ }
